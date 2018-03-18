@@ -1,0 +1,325 @@
+<!doctype html><!--文档头信息-->
+<html lang="en"><!--跟标签-->
+	<head><!--头部标签-->
+		<meta charset="UTF-8"><!--字符编码-->
+		<meta name="Generator" content="EditPlus®"><!--使用编辑器-->
+		<meta name="Author" content=""><!--作者-->
+		<meta name="Keywords" content=""><!--关键字-->
+		<meta name="Description" content=""><!--描述-->
+		<link rel="shortcut icon" href="2.ico" />
+		<title> 优/问题-00-慕（）</title><!--网站标题-->
+		<style type="text/css">
+			body{margin:0;padding:0;}
+			p{margin:0;padding:0;}
+			.container{
+				width:100px;
+				height:100px;
+				perspective:500px;
+			}
+			.container1{
+				position:fixed;
+				top:0px;
+				left:50%;
+				margin-left:;
+			}
+			.container2{
+				position:fixed;
+				top:100px;
+				left:35%;
+			}
+			.container3{
+				position:fixed;
+				top:100px;
+				left:65%;
+			}
+			.container4{
+				position:fixed;
+				top:200px;
+				left:20%;
+			}
+			.container5{
+				position:fixed;
+				top:200px;
+				left:80%;
+			}
+			.img{
+				position:relative;
+				width:50px;
+				height:50px;
+				margin:73px auto;
+				transform-style:preserve-3d;
+				transform-origin:25px 25px 25px;
+				animation-name:manwei;
+				animation-duration:4s;
+				animation-timing-function:ease;
+				animation-iteration-count:infinite;
+				animation-direction:alternate;
+			}
+			.img p{
+				position:absolute;
+				width:50px;
+				height:50px;
+				border:2px solid #f5ea0a;
+			}
+			p:nth-child(1){
+				background:url("images/1.jpg") no-repeat center/cover;
+			}
+			p:nth-child(2){
+				top:0px;
+				right:-56px;
+				background:url("images/2.jpg") no-repeat center/cover;
+				transform-origin:left;
+				transform:rotateY(-90deg)
+			}
+			p:nth-child(3){
+				top:0;
+				left:-52px;
+				background:url("images/3.jpg") no-repeat center/cover;
+				transform-origin:right;
+				transform:rotateY(90deg)
+			}
+			p:nth-child(4){
+				top:-52px;
+				left:0;
+				background:url("images/4.jpg") no-repeat center/cover;
+				transform-origin:bottom;
+				transform:rotateX(-90deg)
+			}
+			p:nth-child(5){
+				top:52px;
+				left:0;
+				background:url("images/5.jpg") no-repeat center/cover;
+				transform-origin:top;
+				transform:rotateX(90deg)
+			}
+			p:nth-child(6){
+				background:url("images/6.jpg") no-repeat center/cover;
+				transform-origin:top;
+				transform:translateZ(52px)
+			}
+			/* 平淡  */
+			/*
+			@Keyframes manwei{
+				0%{
+					transform:rotateX(0deg);
+					transform:rotateY(0deg);
+					transform:rotateZ(0deg);
+					}
+				5%{
+					transform:rotateX(0deg);
+					transform:rotateY(0deg);
+					transform:rotateZ(0deg);
+					}
+				10%{
+					transform:rotateX(50deg);
+					}
+				15%{
+					transform:rotateX(0deg);
+					transform:rotateY(0deg);
+					transform:rotateZ(0deg);
+					}
+				20%{
+					transform:rotateZ(80deg);
+					}
+				25%{
+					transform:rotateX(0deg);
+					transform:rotateY(0deg);
+					transform:rotateZ(0deg);
+					}
+				30%{
+					transform:rotateY(160deg);
+					}
+				35%{
+					transform:rotateX(0deg);
+					transform:rotateY(0deg);
+					transform:rotateZ(0deg);
+					}
+				40%{
+					transform:rotateZ(160deg);
+					}
+				45%{
+					transform:rotateX(0deg);
+					transform:rotateY(0deg);
+					transform:rotateZ(0deg);
+					}
+				50%{
+					transform:rotateX(400deg);
+					}
+				55%{
+					transform:rotateX(0deg);
+					transform:rotateY(0deg);
+					transform:rotateZ(0deg);
+					}
+				60%{
+					transform:rotateY(280deg);
+					}
+				65%{
+					transform:rotateX(0deg);
+					transform:rotateY(0deg);
+					transform:rotateZ(0deg);
+					}
+				70%{
+					transform:rotateX(90deg);
+					}
+				75%{
+					transform:rotateX(0deg);
+					transform:rotateY(0deg);
+					transform:rotateZ(0deg);
+					}
+				80%{
+					transform:rotateZ(140deg);
+					}
+				85%{
+					transform:rotateX(0deg);
+					transform:rotateY(0deg);
+					transform:rotateZ(0deg);
+					}
+				90%{
+					transform:rotateY(80deg);
+					}
+				95%{
+					transform:rotateX(0deg);
+					transform:rotateY(0deg);
+					transform:rotateZ(0deg);
+					}
+				100%{
+					transform:rotateX(40deg);
+					transform:rotateY(40deg);
+					transform:rotateZ(40deg);
+					}
+			} */
+			/* 动感 */
+			@Keyframes manwei{
+				0%{
+					transform:rotateX(0deg);
+					transform:rotateY(0deg);
+					transform:rotateZ(0deg);
+					}
+				3%{
+					transform:rotateX(-20deg);
+					}
+				6%{
+					transform:rotateX(0deg);
+					}
+				9%{
+					transform:rotateX(-40deg);
+					}
+				12%{
+					transform:rotateX(0deg);
+					}
+				15%{
+					transform:rotateY(-80deg);
+					}
+				18%{
+					transform:rotateY(-20deg);
+					}
+				21%{
+					transform:rotateY(-80deg);
+					}
+				23%{
+					transform:rotateY(-20deg);
+					}
+				26%{
+					transform:rotateY(-180deg);
+					}
+				29%{
+					transform:rotateY(-180deg);
+					}
+				31%{
+					transform:rotateX(-180deg);
+					}
+				34%{
+					transform:rotateX(-110deg);
+					}
+				37%{
+					transform:rotateX(-180deg);
+					}
+				40%{
+					transform:rotateX(-110deg);
+					}
+				45%{
+					transform:rotateY(45deg);
+					}
+				50%{
+					transform:rotateX(400deg);
+					}
+				55%{
+					transform:rotateX(200deg);
+					}
+				60%{
+					transform:rotateY(280deg);
+					}
+				65%{
+					transform:rotateX(-90deg);
+					}
+				70%{
+					transform:rotateX(90deg);
+					}
+				80%{
+					transform:rotateZ(140deg);
+					}
+				90%{
+					transform:rotateY(80deg);
+					}
+				100%{
+					transform:rotateX(40deg);
+					transform:rotateY(40deg);
+					transform:rotateZ(40deg);
+					}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container container1">
+			<div class="img">
+				<p></p>
+				<p></p>
+				<p></p>
+				<p></p>
+				<p></p>
+				<p></p>
+			</div>
+		</div>
+		<div class="container container2">
+			<div class="img">
+				<p></p>
+				<p></p>
+				<p></p>
+				<p></p>
+				<p></p>
+				<p></p>
+			</div>
+		</div>
+		<div class="container container3">
+			<div class="img">
+				<p></p>
+				<p></p>
+				<p></p>
+				<p></p>
+				<p></p>
+				<p></p>
+			</div>
+		</div>
+		<div class="container container4">
+			<div class="img">
+				<p></p>
+				<p></p>
+				<p></p>
+				<p></p>
+				<p></p>
+				<p></p>
+			</div>
+		</div>
+		<div class="container container5">
+			<div class="img">
+				<p></p>
+				<p></p>
+				<p></p>
+				<p></p>
+				<p></p>
+				<p></p>
+			</div>
+		</div>
+		<embed src="MKJ-Time.mp3" width="100px" height="50px" loop="false" hidden="true"></embed>
+	</body>
+</html>
